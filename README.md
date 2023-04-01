@@ -17,7 +17,7 @@ _Note: Keep main and variable files different for each component_
 
 ## Solution
 
-### The Terraform resources will consists of following structure
+### Powershell File and Task Definition
 
 ```
 ├── ComputeTag.ps1             // The Script is used to fetch Instance Meta Compute and Tag Realeted information
