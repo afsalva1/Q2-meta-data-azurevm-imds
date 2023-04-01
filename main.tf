@@ -51,7 +51,6 @@ resource "azurerm_windows_virtual_machine" "vm" {
   resource_group_name   = azurerm_resource_group.rg.name
   size                  = "Standard_B2s"
   admin_username        = "afsalva"
-  disable_password_authentication = false
   admin_password        = "Afsalvella123$!"
 
   source_image_reference {
