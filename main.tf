@@ -4,7 +4,7 @@ provider "azurerm" {
 
 resource "azurerm_resource_group" "rg" {
   name     = "meta-lab-rg"
-  location = "southindia"
+  location = "southcentralus"
 }
 
 resource "azurerm_virtual_network" "vnet" {
